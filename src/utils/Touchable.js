@@ -46,7 +46,6 @@ const Touchable = ({
 
 Touchable.propTypes = {
   onPress: PropTypes.func,
-  style: ViewPropTypes.style,
   useForeground: PropTypes.bool,
   children: PropTypes.node.isRequired,
 };
